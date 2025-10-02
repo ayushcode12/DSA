@@ -13,7 +13,7 @@ class Solution {
             set.add(nums[i]);
         }
 
-        for(Integer num : set){
+        for(int num : set){
             if(!set.contains(num - 1)){
                 count = 1;
                 int x = num;
