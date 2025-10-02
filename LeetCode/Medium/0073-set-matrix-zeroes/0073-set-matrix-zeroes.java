@@ -14,7 +14,7 @@ class Solution {
 
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
-                if(matrix[i][j] == -1){
+                if(matrix[i][j] == -11){
                    matrix[i][j] = 0;
                 }
             }
@@ -25,7 +25,7 @@ class Solution {
     private void markRow(int[][] matrix, int i){
         for(int j = 0; j < matrix[0].length; j++){
             if(matrix[i][j] != 0){
-                matrix[i][j] = -1;
+                matrix[i][j] = -11;
             }
         }
     }
@@ -33,7 +33,7 @@ class Solution {
     private void markCol(int[][] matrix, int j){
         for(int i = 0; i < matrix.length; i++){
             if(matrix[i][j] != 0){
-                matrix[i][j] = -1;
+                matrix[i][j] = -11;
             }
         }
     }
