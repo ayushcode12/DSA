@@ -7,21 +7,21 @@ class Solution {
 
         for(int i = 1; i <= n; i++){
             List<Integer> tempList = new ArrayList<>();
-            for(int j = 1; j <= i; j++){
-                tempList.add(nCr(i-1, j-1));
-            }
-            ans.add(tempList);
+            ans.add(generateRow(i));
         }
         return ans;
     }
 
-    private int nCr(int i, int j){
-        int res = 1;
-        for(int k = 0; k < j; k++){
-            res = res * (i - k);
-            res = res / (k + 1);
+    private List<Integer> generateRow(int rowNum){
+        int ans = 1; 
+        List<Integer> ansRow = new ArrayList<>();
+        ansRow.add(1);
+        for(int col = 1; col < rowNum; col++){
+            ans = ans * (rowNum - col);
+            ans = ans / col;
+            ansRow.add(ans);
         }
-        return res;
+        return ansRow;
     }
 
 }
