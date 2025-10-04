@@ -4,17 +4,16 @@ class Solution {
         int n = nums.length;
         List<Integer> ans = new ArrayList<>();
 
-        for(int i = 0; i < n; i++){
-            if(ans.size() == 0 || ans.get(0) != nums[i]){
-                int count = 0;
-                for(int j = 0; j < n; j++){
-                    if(nums[j] == nums[i])
-                        count++;
-                }
-                if(count > n/3) ans.add(nums[i]);
-            }
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int min = (n/3) + 1;
 
-            if(ans.size() == 2) break;
+        for(int i = 0; i < n; i++){
+            int value = map.getOrDefault(nums[i], 0);
+            map.put(nums[i], value+1);
+
+            if(map.get(nums[i]) == min){
+                ans.add(nums[i]);
+            }
         }
 
         return ans;
