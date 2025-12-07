@@ -1,39 +1,31 @@
 class Solution {
     public int romanToInt(String s) {
-        int i = 0;
-        int ans = 0;
+        int total = 0;
+        int prev = 0;
 
-        while (i < s.length()) {
-            // Check two-character symbols first
-            if (i + 1 < s.length()) {
-                String pair = s.substring(i, i + 2);
+        for (int i = s.length() - 1; i >= 0; i--) {
+            int curr = value(s.charAt(i));
 
-                if (pair.equals("IV")) { ans += 4; i += 2; continue; }
-                if (pair.equals("IX")) { ans += 9; i += 2; continue; }
-                if (pair.equals("XL")) { ans += 40; i += 2; continue; }
-                if (pair.equals("XC")) { ans += 90; i += 2; continue; }
-                if (pair.equals("CD")) { ans += 400; i += 2; continue; }
-                if (pair.equals("CM")) { ans += 900; i += 2; continue; }
+            if (curr < prev) {
+                total -= curr;
+            } else {
+                total += curr;
             }
 
-            // Single character case
-            ans += value(s.charAt(i));
-            i++;
+            prev = curr;
         }
 
-        return ans;
+        return total;
     }
 
     private int value(char c) {
-        switch (c) {
-            case 'I': return 1;
-            case 'V': return 5;
-            case 'X': return 10;
-            case 'L': return 50;
-            case 'C': return 100;
-            case 'D': return 500;
-            case 'M': return 1000;
-        }
+        if (c == 'I') return 1;
+        if (c == 'V') return 5;
+        if (c == 'X') return 10;
+        if (c == 'L') return 50;
+        if (c == 'C') return 100;
+        if (c == 'D') return 500;
+        if (c == 'M') return 1000;
         return 0;
     }
 }
