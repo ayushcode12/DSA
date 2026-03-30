@@ -13,6 +13,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0008-string-to-integer-atoi](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0008-string-to-integer-atoi/) | Medium |
 | [0013-roman-to-integer](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
 | [0451-sort-characters-by-frequency](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0451-sort-characters-by-frequency/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
