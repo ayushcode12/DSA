@@ -12,24 +12,21 @@ class Solution {
                 map.put(ch, 1);
             }
         }
-
-
-        for(int freq : map.values()){
-            max = Math.max(max, freq);
-        }
+        
+        PriorityQueue<Map.Entry<Character, Integer>> pq = new PriorityQueue<>((a, b) -> b.getValue() - a.getValue());
+        
+        pq.addAll(map.entrySet());
 
         StringBuilder result = new StringBuilder();
 
-        while(max != 0){
-            for(Map.Entry<Character, Integer> entry : map.entrySet()){
-                if(entry.getValue() == max){
-                    char ch = entry.getKey();
-                    for(int i = 0; i < max; i++){
-                        result.append(ch);
-                    }
-                }
+        while(!pq.isEmpty()){
+            Map.Entry<Character, Integer> entry = pq.poll();
+            char ch = entry.getKey();
+            int freq = entry.getValue();
+
+            for(int i = 0; i < freq; i++){
+                result.append(ch);
             }
-            max--;
         }
         return result.toString();
     }
