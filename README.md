@@ -13,6 +13,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0008-string-to-integer-atoi](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0008-string-to-integer-atoi/) | Medium |
 | [0013-roman-to-integer](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
 | [0344-reverse-string](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
@@ -45,5 +46,10 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0344-reverse-string](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
