@@ -3,8 +3,8 @@ class Solution {
 
         int count = 0;
         
-        for(int k = 1; Math.pow(5, k) <= n; k++){
-            count = count + (int)(Math.floor(n / (Math.pow(5, k))));
+        for(int i = 5; i <= n; i = i * 5){
+            count += (n / i);
         }
 
         return count;
