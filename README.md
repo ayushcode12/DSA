@@ -44,6 +44,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
+| [0172-factorial-trailing-zeroes](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0172-factorial-trailing-zeroes/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
