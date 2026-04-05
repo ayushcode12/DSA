@@ -1,35 +1,34 @@
 class Solution {
-    public int myAtoi(String s) {
-
-        s=s.trim();
-
-        if(s.isEmpty()) return 0;
+    public int myAtoi(String temp) {
         
+        String s = temp.trim();
+        if(s.isEmpty()) return 0;
+
         int i = 0;
         int sign = 1;
-        int n = s.length();
 
-        if(s.charAt(i) == '-' || s.charAt(i) == '+'){
+        // Step 1: Handle sign
+        if(s.charAt(i) == '+' || s.charAt(i) == '-') {
             sign = (s.charAt(i) == '-') ? -1 : 1;
             i++;
         }
 
         int result = 0;
 
-        while(i < n && Character.isDigit(s.charAt(i))){
+        // Step 2: Traverse digits
+        while(i < s.length() && Character.isDigit(s.charAt(i))) {
+
             int digit = s.charAt(i) - '0';
 
-            if(result > Integer.MAX_VALUE / 10 || 
-                result == Integer.MAX_VALUE / 10 && 
-                digit > Integer.MAX_VALUE % 10){
-                    return (sign == 1) ? Integer.MAX_VALUE : Integer.MIN_VALUE;
-                }
-                result = result * 10 + digit;
+            // Step 3: Handle overflow BEFORE updating result
+            if(result > (Integer.MAX_VALUE - digit) / 10) {
+                return (sign == 1) ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            }
 
+            result = result * 10 + digit;
             i++;
         }
 
-        return (result * sign);
-
+        return result * sign;
     }
 }

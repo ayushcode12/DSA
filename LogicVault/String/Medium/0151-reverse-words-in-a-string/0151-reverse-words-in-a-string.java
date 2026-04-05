@@ -1,44 +1,19 @@
 class Solution {
     public String reverseWords(String s) {
+        
+        // Step 1: split words (handle multiple spaces)
+        String[] words = s.trim().split("\\s+");
 
-        s = s.trim();
+        // Step 2: reverse order
+        StringBuilder result = new StringBuilder();
 
-        int left = 0;
-        int right = s.length() - 1;
-
-        String temp = "";
-        String ans = "";
-
-        while(left <= right){
-            char ch = s.charAt(left);
-
-            if(ch != ' '){
-                temp += ch;
-            }
-
-            else if(!temp.isEmpty()){
-                if(!ans.equals("")){
-                    ans = temp + " " + ans; 
-                }
-                else{
-                    ans = temp;
-                }
-                temp = "";
-            }
-            left++;
-        }
-
-        if(!temp.equals("")){
-            if(!ans.equals("")){
-                ans = temp + " " + ans;
-            }
-
-            else{
-                ans = temp;
+        for(int i = words.length - 1; i >= 0; i--){
+            result.append(words[i]);
+            if(i != 0){
+                result.append(" ");
             }
         }
 
-        return ans;
-
+        return result.toString();
     }
 }
