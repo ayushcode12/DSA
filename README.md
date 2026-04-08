@@ -5,6 +5,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0136-single-number](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
+| [0260-single-number-iii](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0260-single-number-iii/) | Medium |
 | [3285-find-indices-of-stable-mountains](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/3285-find-indices-of-stable-mountains/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -63,6 +64,7 @@
 | ------- | ------- |
 | [0136-single-number](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0231-power-of-two](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
+| [0260-single-number-iii](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0260-single-number-iii/) | Medium |
 | [0338-counting-bits](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
