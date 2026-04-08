@@ -45,6 +45,7 @@
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
 | [0172-factorial-trailing-zeroes](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0172-factorial-trailing-zeroes/) | Medium |
+| [0231-power-of-two](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -59,5 +60,10 @@
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0231-power-of-two](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0338-counting-bits](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 <!---LeetCode Topics End-->
