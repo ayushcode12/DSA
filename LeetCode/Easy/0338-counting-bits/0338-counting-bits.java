@@ -7,8 +7,8 @@ class Solution {
             int count = 0;
             int temp = i;
             while(temp > 0){
-                if((temp & 1) != 0) count++;
-                temp = temp >> 1;
+                temp = temp & (temp - 1);
+                count = count + 1; 
             }
             ans[i] = count;
         }
