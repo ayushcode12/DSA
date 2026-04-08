@@ -55,4 +55,9 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
+| [0338-counting-bits](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0338-counting-bits](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 <!---LeetCode Topics End-->
