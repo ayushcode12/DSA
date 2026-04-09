@@ -1,0 +1,7 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/swap-all-odd-and-even-bits-1587115621/1">Swap odd and even bits</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an unsigned integer <strong>n</strong>, You have&nbsp; to swap all even-position bits with their rightside adjacent odd-position bits.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><strong style="font-size: 18px;">Input</strong><span style="font-size: 18px;">: n = 23<br></span><span style="font-size: 18px;"><strong>Output</strong>: 43<br></span><span style="font-size: 18px;"><strong>Explanation</strong>: Binary representation of the given number  is <strong>0</strong>0<strong>0</strong>1<strong>0</strong>1<strong>1</strong>1 after swapping  0<strong>0</strong>1<strong>0</strong>1<strong>0</strong>1<strong>1</strong> = 43 in decimal.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: n = 2
+<strong>Output</strong>: 1
+<strong>Explanation</strong>: Binary representation of the given number is <strong>1</strong>0 after swapping 0<strong>1 </strong>= 1 in decimal</span>.<strong><span style="font-size: 14pt;"><br></span></strong></pre>
+<p data-pm-slice="1 1 []"><span style="font-size: 14pt;"><strong>Constraints:<br></strong></span><span style="font-size: 14pt;">1 ≤ n ≤ 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Bit Magic</code>&nbsp;<code>Data Structures</code>&nbsp;
