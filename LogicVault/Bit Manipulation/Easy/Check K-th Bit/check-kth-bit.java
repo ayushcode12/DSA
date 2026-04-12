@@ -1,7 +1,9 @@
 class CheckBit {
     static boolean checkKthBit(int n, int k) {
         // code here
-        if(((1 << k) & n) != 0) return true;
+        int x = (1 << k);
+        
+        if((n & x) != 0) return true;
         else return false;
     }
 }

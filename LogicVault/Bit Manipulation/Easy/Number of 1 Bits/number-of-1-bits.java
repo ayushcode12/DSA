@@ -1,14 +1,14 @@
 // User function Template for Java
 class Solution {
     static int setBits(int n) {
-        // code here
-        int count = 0;
         
+        int count = 0;
+        // code here
         while(n > 0){
-            if(n % 2 != 0){
-                count++;
-            }
-            n /= 2;
+            
+            if((n & 1) != 0) count++;
+            
+            n = n >> 1;
         }
         
         return count;
