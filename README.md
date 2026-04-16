@@ -63,6 +63,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0136-single-number](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
+| [0190-reverse-bits](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0190-reverse-bits/) | Easy |
 | [0231-power-of-two](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0260-single-number-iii](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Medium/0260-single-number-iii/) | Medium |
 | [0338-counting-bits](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
@@ -71,4 +72,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0190-reverse-bits](https://github.com/ayushcode12/DSA/tree/main/LeetCode/Easy/0190-reverse-bits/) | Easy |
 <!---LeetCode Topics End-->
